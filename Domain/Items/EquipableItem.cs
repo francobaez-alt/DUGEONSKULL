@@ -24,5 +24,12 @@ namespace Domain.Items
         {
             Slot = slot;
         }
+
+        public override string ToString()
+        {
+            return
+                $"{Name}\n" +
+                $"{BonusStats}";
+        }
     }
 }
